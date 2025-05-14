@@ -1,0 +1,69 @@
+name: flutter_base
+
+#  Flutter 3.27.1 • channel stable • https://github.com/flutter/flutter.git
+#  Framework • revision 17025dd882 (5 months ago) • 2024-12-17 03:23:09 +0900
+#  Engine • revision cb4b5fff73
+#  Tools • Dart 3.6.0 • DevTools 2.40.2
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  flutter_svg: ^2.1.0
+  flutter_screenutil: ^5.9.3
+  file_picker: ^10.1.9
+  get_storage: ^2.1.1
+  shimmer: ^3.0.0
+  dio: ^5.8.0+1
+  logger: ^2.5.0
+  connectivity_plus: ^6.1.4
+  device_info_plus: ^11.3.0
+  fluttertoast: ^8.2.12
+  path_provider: ^2.1.5
+  intl: ^0.20.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+
+#  fonts:
+#    - family: Poppins
+#      fonts:
+#        - asset: assets/fonts/Poppins-Thin.ttf
+#          weight: 100
+#        - asset: assets/fonts/Poppins-ExtraLight.ttf
+#          weight: 200
+#        - asset: assets/fonts/Poppins-Light.ttf
+#          weight: 300
+#        - asset: assets/fonts/Poppins-Regular.ttf
+#          weight: 400
+#        - asset: assets/fonts/Poppins-Medium.ttf
+#          weight: 500
+#        - asset: assets/fonts/Poppins-SemiBold.ttf
+#          weight: 600
+#        - asset: assets/fonts/Poppins-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/Poppins-ExtraBold.ttf
+#          weight: 800
+#        - asset: assets/fonts/Poppins-Black.ttf
+#          weight: 900
